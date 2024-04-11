@@ -1,0 +1,8 @@
+To run this code execute the following command in terminal:
+python3 exec.py -inst <filename> -alg <algorithm> -time <cutoff_time> -seed <seed>
+
+Example command would be:
+python3 exec.py -inst Atlanta.tsp -alg LS -time 20 -seed 0
+(here filename is Atlanta.tsp, LS is the algorithm code, cutoff_time is 20 seconds, seed=0)
+
+If the data is stored in a folder, then ensure that the correct path is mentioned in the command.
