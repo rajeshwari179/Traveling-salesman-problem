@@ -11,5 +11,7 @@ To run this code, execute the following command in the terminal:
 python3 exec.py -inst <filename> -alg <algorithm> -time <cutoff_time> -seed <seed>
 ```
 
-#Example
+##Example
+```bash
 python3 exec.py -inst Atlanta.tsp -alg LS -time 20 -seed 0
+```
